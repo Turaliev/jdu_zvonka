@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet"> 
+
+	<style>
+
+		body{
+			
+			font-family: 'Oswald', sans-serif;
+		}
+
+		.block{
+			width: 290px;
+			height: 400px;
+			background: #8fdbbd;
+			border-radius: 21px;
+		}
+
+		.div1{
+			width: 230px;
+			font-size: 18px;
+			color:white;
+			position: relative;
+			top:97px;
+			left: 23px;
+		}
+
+
+
+
+		.heading h1 {
+			background: -webkit-linear-gradient(#fff, #999);
+			-webkit-text-fill-color: transparent;
+			-webkit-background-clip: text;
+			text-align: center;
+			margin: 0 0 5px 0;
+			font-weight: 900;
+			font-size: 4rem;
+			color: #fff;
+
+		}
+		.heading h4 {
+			color: #a990cc;
+			text-align: center;
+			margin: 0 0 35px 0;
+			font-weight: 400;
+			font-size: 24px;
+		}
+
+		.form-group {
+			margin-bottom: 25px;
+		}
+
+		.div2{
+			width: 200px;
+			position: relative;
+			top:100px;
+			left:45px;
+		}
+
+		.btn{
+			background: #8080ff;
+			color:white;
+			width: 250px;
+		}
+
+		.div3{
+			position: relative;
+			top:90px;
+			left: 18px;
+		}
+
+		ul.ul li{
+			display: inline;
+
+		}
+
+		.div4{
+			position: relative;
+			top:90px;
+			left: 55px;
+			font-size: 39px;
+			color: white;
+
+		}
+
+		.txt1{
+			font-size: 13px;
+			position: relative;
+			top:85px;
+			left: 17px;
+			color:white;
+		}
+
+		.txt2{
+			font-size: 13px;
+			position: relative;
+			top:70px;
+			left: 17px;
+			color:white;
+		}
+
+		.txt3{
+			font-size: 13px;
+			position: relative;
+			top:55px;
+			left: 17px;
+			color:white;
+		}
+
+		.x{
+			position: absolute;
+			font-size: 20px;
+			border:none;
+			border-radius: 30px;
+			background: #8fdbbd;
+			left:420px;
+			top: 50px;
+
+		}
+
+
+
+
+		
+	</style>
+</head>
+<body>
+	<div class="container p-5">
+		<div class="block">
+			<button class="x"><b>x</b></button>
+			<div class="div1">
+				<b>
+					<p class="p1">-Хотите, перезвоним вам за 28 секунд?</p>
+				</b>
+			</div>
+			<div class="div2">
+				<div class="form-group">
+					<div class="input-group">
+						<span class="input-group-addon"><span></span></span>
+						<input type="tel" name="phone" id="phone" placeholder="+996" autocomplete="tel" maxlength="14" class="form-control" pattern="[(][0-9]{3}[)] [0-9]{3}-[0-9]{4}" required />
+					</div>
+				</div>
+			</div>
+			<div class="div3">
+				<button type="button" class="btn "><b>Жду звонка</b></button>
+			</div>
+			<div class="div4">
+				<ul class="ul">
+					<li class="time3" >00 :</li>
+					<li class="time1" id="timer1"></li>
+					<!-- li id="timer"></li>  -->
+
+				</ul>
+			</div>
+			
+				<p class="txt1">Свободных операторов на линии 10</p>
+				<p class="txt2">В процессе разговора с клиентами 15</p>
+				<p class="txt3">Обслуженных вызовов за сегодня 350</p>
+			
+
+
+
+			
+
+		</div>
+	</div>
+
+
+	
+
+
+
+
+
+	<script src="index.js"></script>
+
+</body>
+</html>
